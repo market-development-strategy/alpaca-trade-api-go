@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/alpacahq/alpaca-trade-api-go/alpaca"
-	"github.com/alpacahq/alpaca-trade-api-go/common"
-	"github.com/alpacahq/alpaca-trade-api-go/v2/stream"
+	"github.com/market-development-strategy/alpaca-trade-api-go/alpaca"
+	"github.com/market-development-strategy/alpaca-trade-api-go/common"
+	"github.com/market-development-strategy/alpaca-trade-api-go/v2/stream"
 )
 
 func main() {

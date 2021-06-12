@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/alpacahq/alpaca-trade-api-go/alpaca"
+	"github.com/market-development-strategy/alpaca-trade-api-go/alpaca"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"

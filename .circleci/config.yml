@@ -3,7 +3,7 @@ jobs:
   build:
     docker:
       - image: circleci/golang:1.14.13
-    working_directory: /go/src/github.com/alpacahq/alpaca-trade-api-go
+    working_directory: /go/src/github.com/market-development-strategy/alpaca-trade-api-go
     steps:
       - checkout
       - run: go test -v -cover ./...

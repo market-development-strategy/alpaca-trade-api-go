@@ -2,7 +2,7 @@
 # alpaca-trade-api-go
 
 [![CircleCI Status](https://circleci.com/gh/alpacahq/alpaca-trade-api-go.svg?style=svg)](https://circleci.com/gh/alpacahq/alpaca-trade-api-go)
-[![Go Report Card](https://goreportcard.com/badge/github.com/alpacahq/alpaca-trade-api-go)](https://goreportcard.com/report/github.com/alpacahq/alpaca-trade-api-go)
+[![Go Report Card](https://goreportcard.com/badge/github.com/market-development-strategy/alpaca-trade-api-go)](https://goreportcard.com/report/github.com/market-development-strategy/alpaca-trade-api-go)
 
 `alpaca-trade-api-go` is a Go library for the Alpaca trade API. It allows rapid 
 trading algo development easily, with support for the both REST and streaming interfaces.
@@ -11,10 +11,10 @@ trading algo development easily, with support for the both REST and streaming in
 ## Installation
 
 ```
-$ go get github.com/alpacahq/alpaca-trade-api-go/common
-$ go get github.com/alpacahq/alpaca-trade-api-go/polygon
-$ go get github.com/alpacahq/alpaca-trade-api-go/stream
-$ go get github.com/alpacahq/alpaca-trade-api-go/alpaca
+$ go get github.com/market-development-strategy/alpaca-trade-api-go/common
+$ go get github.com/market-development-strategy/alpaca-trade-api-go/polygon
+$ go get github.com/market-development-strategy/alpaca-trade-api-go/stream
+$ go get github.com/market-development-strategy/alpaca-trade-api-go/alpaca
 ```
 
 ## Example
@@ -29,8 +29,8 @@ import (
     "os"
     "fmt"
 
-    "github.com/alpacahq/alpaca-trade-api-go/alpaca"
-    "github.com/alpacahq/alpaca-trade-api-go/common"
+    "github.com/market-development-strategy/alpaca-trade-api-go/alpaca"
+    "github.com/market-development-strategy/alpaca-trade-api-go/common"
 )
 
 func init() {
@@ -72,9 +72,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/alpacahq/alpaca-trade-api-go/alpaca"
-	"github.com/alpacahq/alpaca-trade-api-go/common"
-	"github.com/alpacahq/alpaca-trade-api-go/stream"
+	"github.com/market-development-strategy/alpaca-trade-api-go/alpaca"
+	"github.com/market-development-strategy/alpaca-trade-api-go/common"
+	"github.com/market-development-strategy/alpaca-trade-api-go/stream"
 )
 
 func main() {
@@ -155,4 +155,4 @@ note: this env variable could be used to proxy the data websocket through a cust
 ## GoDoc
 
 For a more in-depth look at the SDK, see the 
-[GoDoc](https://godoc.org/github.com/alpacahq/alpaca-trade-api-go)
+[GoDoc](https://godoc.org/github.com/market-development-strategy/alpaca-trade-api-go)

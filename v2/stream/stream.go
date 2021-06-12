@@ -4,7 +4,7 @@ import (
 	"log"
 	"sync"
 
-	"github.com/alpacahq/alpaca-trade-api-go/alpaca"
+	"github.com/market-development-strategy/alpaca-trade-api-go/alpaca"
 )
 
 var (
